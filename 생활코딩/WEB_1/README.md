@@ -1,6 +1,6 @@
 # WEB 1 필기
 
-<a href="https://ofcourse.kr/html-course/HTML-%EC%9E%85%EB%AC%B8">HTML 문법 사이트</a>
+<a href="https://ofcourse.kr/html-course/HTML-%EC%9E%85%EB%AC%B8" target="_blank">HTML 문법 사이트</a>
    
 **10강 자주보기!**
 
@@ -30,12 +30,12 @@
 <html>
 ```
 
-**head** (고위직태그): 문서의 머리를 나타내는 태그 (내부에 들어가는 태그들: title, meta, link, style, script)
+**head (고위직태그)**: 문서의 머리를 나타내는 태그 (내부에 들어가는 태그들: title, meta, link, style, script)
 ```
 <head></head>
 ```
 
-**body** (고위직태그): 문서의 몸통을 나타내는 태그 (내부에 들어가는 태그들:br, p, b, i, h1, a, img, table, div, span, ul, il, form)
+**body (고위직태그)**: 문서의 몸통을 나타내는 태그 (내부에 들어가는 태그들:br, p, b, i, h1, a, img, table, div, span, ul, il, form)
 ```
 <body></body>
 ```
@@ -102,5 +102,5 @@
 ```
 **a**: 글자에 링크를 넣을 수 있다
 ```
-<a href="링크주소"></a>
+<a href="링크주소" target="_blank(다른탭에 링크실행)" title="클릭하기 전에 무슨 정보인지 알려주는 것"></a>
 ```
