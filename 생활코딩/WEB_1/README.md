@@ -1,6 +1,6 @@
 # WEB 1 필기
 
-<a href="https://ofcourse.kr/html-course/HTML-%EC%9E%85%EB%AC%B8" target="_blank">HTML 문법 사이트</a>
+<a href="https://ofcourse.kr/html-course/HTML-%EC%9E%85%EB%AC%B8">HTML 문법 사이트</a>
    
 **10강 자주보기!**
 
