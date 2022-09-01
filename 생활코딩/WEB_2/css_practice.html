@@ -6,11 +6,17 @@ CSS selector-->
 <head>
     <title>WEB1 - html</title>
     <style>
+    body{
+        margin: 0;
+    }
     h1 {
         font-size: 45px;
         color: blue;
         text-decoration: none;
         text-align: center;
+        border-bottom: 3px solid black;
+        margin: 0;
+        padding: 20px;
     }
     #active {
         color: red;
@@ -19,11 +25,35 @@ CSS selector-->
         color: gray;
     }
     
+    ol {
+        border-right: 1px solid black;
+        width: 100px;
+        margin: 0;
+        padding-left: 20px;
+    }
+        #grid{
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+        #article{
+            padding-right: 25px;
+        }
+    @media(max-width:800px){
+        #grid{
+            display: block;
+        }
+            ol {
+        border-right: none;
+        }
+        h1 {
+            border-bottom: none;
+    }
     </style>
 
 </head>
 <body>
     <h1>CSS 실습</h1>
+<div id="grid">
     <ol>
         <li style="color: blueviolet; text-decoration: underline;">아이스하키</li>
         <li>컴퓨터과학과</li>
@@ -31,16 +61,18 @@ CSS selector-->
         <li><a href="https://www.naver.com/" class="site">네이버사이트</a></li>
         <li><a href="https://www.daum.net/" class="site" id="active">다음사이트</a></li>
     </ol>
+    <div id="article">
+            <h2 style="color:red;">서시</h2>
+            <p>죽는 날까지 하늘을 우러러
+            한 점 부끄럼이 없기를,
+            잎새에 이는 바람에도
+            나는 괴로워했다.
+            별을 노래하는 마음으로
+            모든 죽어 가는 것을 사랑해야지
+            그리고 나한테 주어진 길을
+            걸어가야겠다.
+            오늘 밤에도 별이 바람에 스치운다.</p>
+    </div>
+</div>
 </body>
-<h2 style="color:red;">서시</h2>
-<p>죽는 날까지 하늘을 우러러
-    한 점 부끄럼이 없기를,
-    잎새에 이는 바람에도
-    나는 괴로워했다.
-    별을 노래하는 마음으로
-    모든 죽어 가는 것을 사랑해야지
-    그리고 나한테 주어진 길을
-    걸어가야겠다.
-    
-    오늘 밤에도 별이 바람에 스치운다.
-</p>
+</html>
